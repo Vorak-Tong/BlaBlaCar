@@ -6,9 +6,10 @@
 // void main() {
 //   Location dijon = Location(country: Country.france, name: "Dijon");
 
-//   List<Ride> filteredRide = RidesService.filter(requestedSeats: 2, departureLocation: dijon);
+//   List<Ride> filteredRide = RidesService.filterBy(departure: dijon, seatRequested: 2);
 
 //   for (Ride ride in filteredRide) {
 //     print(ride);
 //   }
+
 // }
